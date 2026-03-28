@@ -121,6 +121,45 @@ MongoDB (Users, Chats, Portfolios)
 - **MongoDB** running locally on `mongodb://localhost:27017` (or [Atlas](https://cloud.mongodb.com))
 - **Git** ([download](https://git-scm.com))
 
+---
+
+### 🔑 API Keys Setup (IMPORTANT)
+
+#### 1. Hugging Face API Key
+
+* Go to: [https://huggingface.co](https://huggingface.co)
+* Sign up / Login
+* Click profile → **Settings** → **Access Tokens**
+* Click **New Token**
+* Choose:
+
+  * Name: `et-finance-bot`
+  * Role: `Read`
+* Generate and copy key
+
+Example:
+
+```env
+HF_API_KEY=hf_xxxxxxxxxxxxx
+```
+
+---
+
+#### 2. Tavily API Key
+
+* Go to: [https://tavily.com](https://tavily.com)
+* Click **Get Started** / Sign up
+* Open dashboard: [https://app.tavily.com](https://app.tavily.com)
+* Copy API key
+
+Example:
+
+```env
+TAVILY_API_KEY=tvly-xxxxxxxxxxxxx
+```
+
+---
+
 ### 1. Clone the Repository
 
 ```bash
