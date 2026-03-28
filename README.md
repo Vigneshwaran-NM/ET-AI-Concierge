@@ -123,7 +123,7 @@ MongoDB (Users, Chats, Portfolios)
 
 ---
 
-### 🔑 API Keys Setup (IMPORTANT)
+###  API Keys Setup (IMPORTANT)
 
 #### 1. Hugging Face API Key
 
