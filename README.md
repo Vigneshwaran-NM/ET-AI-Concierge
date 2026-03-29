@@ -302,5 +302,5 @@ MIT License — feel free to use, modify, and distribute.
 ---
 
 <div align="center">
-  <strong>Built by Straw Hat Crew for The Economic Times AI Hackathon 2026</strong>
+  <strong>Built by Straw Hat Crew for The Economic Times AI Hackathon</strong>
 </div>
