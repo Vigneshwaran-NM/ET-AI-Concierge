@@ -161,7 +161,7 @@ TAVILY_API_KEY=tvly-xxxxxxxxxxxxx
 ---
 
 ### 1. 
-## A) Clone the Repository
+### A) Clone the Repository
 
 ```bash
 git clone https://github.com/Vigneshwaran-NM/ET-AI-Concierge.git
@@ -170,7 +170,7 @@ cd ET-AI-Concierge
 
 **Or**
 
-## B) Click 'Code' - [Download Zip](https://github.com/Vigneshwaran-NM/ET-AI-Concierge/archive/refs/heads/main.zip) and Extract It
+### B) Click 'Code' - [Download Zip](https://github.com/Vigneshwaran-NM/ET-AI-Concierge/archive/refs/heads/main.zip) and Extract It
 
 ```bash
 cd ET-AI-Concierge
