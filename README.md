@@ -1,4 +1,4 @@
-# 🏛️ ET AI Concierge — Financial Companion
+# 'ET AI Concierge' — A Financial Companion
 
 <div align="center">
 
