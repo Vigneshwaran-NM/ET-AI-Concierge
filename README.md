@@ -119,7 +119,7 @@ MongoDB (Users, Chats, Portfolios)
 
 - **Node.js** 18+ ([download](https://nodejs.org))
 - **MongoDB** running locally on `mongodb://localhost:27017` (or [Atlas](https://cloud.mongodb.com))
-- **Git** ([download](https://git-scm.com))
+- **Git** ([download](https://git-scm.com)) - "To Pull this Repo" **Or** Click 'Code' - Download Zip (This will download the entire Repository)
 
 ---
 
@@ -160,7 +160,7 @@ TAVILY_API_KEY=tvly-xxxxxxxxxxxxx
 
 ---
 
-### 1. Clone the Repository
+### 1. Clone the Repository **Or** Click 'Code' - Download Zip and Extract It
 
 ```bash
 git clone https://github.com/Vigneshwaran-NM/ET-AI-Concierge.git
@@ -179,7 +179,7 @@ Create a `.env` file in `backend/`:
 ```env
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/et_ai_concierge
-JWT_SECRET=your_jwt_secret_here
+JWT_SECRET=your_jwt_secret_here (Ignore this as it will take 'any random string')
 JWT_EXPIRE=7d
 HF_API_KEY=your_huggingface_api_key
 TAVILY_API_KEY=your_tavily_api_key
@@ -293,5 +293,5 @@ MIT License — feel free to use, modify, and distribute.
 ---
 
 <div align="center">
-  <strong>Built with ❤️ for The Economic Times Hackathon</strong>
+  <strong>Built by Straw Hat Crew for The Economic Times AI Hackathon</strong>
 </div>
