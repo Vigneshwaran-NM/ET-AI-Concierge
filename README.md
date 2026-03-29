@@ -22,9 +22,9 @@
 - [Tech Stack](#tech-stack)
 - [Features](#features)
 - [Setup Instructions](#setup-instructions)
+- [Environment Variables](#environment-variables)
 - [API Endpoints](#api-endpoints)
 - [Project Structure](#project-structure)
-- [Environment Variables](#environment-variables)
 - [Documents](#documents)
 
 ---
@@ -119,7 +119,7 @@ MongoDB (Users, Chats, Portfolios)
 
 - **Node.js** 18+ ([download](https://nodejs.org))
 - **MongoDB** running locally on `mongodb://localhost:27017` (or [Atlas](https://cloud.mongodb.com))
-- **Git** ([download](https://git-scm.com)) - "To Pull this Repo" **Or** Click 'Code' - Download Zip (This will download the entire Repository)
+- **Git** ([download](https://git-scm.com)) - To Pull this Repo **Or** Click 'Code' - [Download Zip](https://github.com/Vigneshwaran-NM/ET-AI-Concierge/archive/refs/heads/main.zip)
 
 ---
 
@@ -160,10 +160,18 @@ TAVILY_API_KEY=tvly-xxxxxxxxxxxxx
 
 ---
 
-### 1. Clone the Repository **Or** Click 'Code' - Download Zip and Extract It
+### 1. 
+A) Clone the Repository
 
 ```bash
 git clone https://github.com/Vigneshwaran-NM/ET-AI-Concierge.git
+cd ET-AI-Concierge
+```
+
+**Or**
+B) Click 'Code' - [Download Zip](https://github.com/Vigneshwaran-NM/ET-AI-Concierge/archive/refs/heads/main.zip) and Extract It
+
+```bash
 cd ET-AI-Concierge
 ```
 
@@ -179,7 +187,7 @@ Create a `.env` file in `backend/`:
 ```env
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/et_ai_concierge
-JWT_SECRET=your_jwt_secret_here (Ignore this as it will take 'any random string')
+JWT_SECRET=your_jwt_secret_here
 JWT_EXPIRE=7d
 HF_API_KEY=your_huggingface_api_key
 TAVILY_API_KEY=your_tavily_api_key
@@ -202,6 +210,19 @@ npm run dev
 ### 4. Open in Browser
 
 Navigate to `http://localhost:5173` in **Google Chrome** (required for voice features).
+
+---
+
+## Environment Variables
+
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `PORT` | Backend port | `5000` |
+| `MONGO_URI` | MongoDB connection string | `mongodb://localhost:27017/et_ai_concierge` |
+| `JWT_SECRET` | Secret for JWT signing | Any random string |
+| `JWT_EXPIRE` | Token expiry | `7d` |
+| `HF_API_KEY` | HuggingFace API key | `hf_xxxxxxxxxxxxx` |
+| `TAVILY_API_KEY` | Tavily Search API key | `tvly-dev-xxxxxxxxxxxxx` |
 
 ---
 
@@ -263,19 +284,6 @@ ET-AI-Concierge/
 ├── Impact_Model.md               # Quantified business impact estimate
 └── README.md                     # This file
 ```
-
----
-
-## Environment Variables
-
-| Variable | Description | Example |
-|----------|-------------|---------|
-| `PORT` | Backend port | `5000` |
-| `MONGO_URI` | MongoDB connection string | `mongodb://localhost:27017/et_ai_concierge` |
-| `JWT_SECRET` | Secret for JWT signing | Any random string |
-| `JWT_EXPIRE` | Token expiry | `7d` |
-| `HF_API_KEY` | HuggingFace API key | `hf_xxxxxxxxxxxxx` |
-| `TAVILY_API_KEY` | Tavily Search API key | `tvly-dev-xxxxxxxxxxxxx` |
 
 ---
 
