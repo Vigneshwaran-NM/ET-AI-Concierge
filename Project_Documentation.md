@@ -1,8 +1,7 @@
 # 📄 ET AI Concierge — Project Documentation
 
-**Version:** 1.0  
+**Straw Hat Crew**
 **Date:** March 29, 2025  
-**Author:** Vigneshwaran NM  
 **Repository:** [github.com/Vigneshwaran-NM/ET-AI-Concierge](https://github.com/Vigneshwaran-NM/ET-AI-Concierge)
 
 ---
