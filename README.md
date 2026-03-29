@@ -119,7 +119,7 @@ MongoDB (Users, Chats, Portfolios)
 
 - **Node.js** 18+ ([download](https://nodejs.org))
 - **MongoDB** running locally on `mongodb://localhost:27017` (or [Atlas](https://cloud.mongodb.com))
-- **Git** ([download](https://git-scm.com)) - To Pull this Repo **Or** Click 'Code' - [Download Zip](https://github.com/Vigneshwaran-NM/ET-AI-Concierge/archive/refs/heads/main.zip)
+- **Git** ([download](https://git-scm.com)) - To Pull this Repo (Or Click 'Code' - [Download Zip](https://github.com/Vigneshwaran-NM/ET-AI-Concierge/archive/refs/heads/main.zip))
 
 ---
 
