@@ -200,8 +200,6 @@ function App() {
         }
         setActiveChatMessages((prev) => [...prev, result.userMessage, result.aiMessage]);
       }
-
-      if (!isRightPanelOpen) setIsRightPanelOpen(true);
     } catch (err) {
       console.error('Failed to send message:', err.message);
     } finally {
