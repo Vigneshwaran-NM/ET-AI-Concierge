@@ -1,6 +1,6 @@
+# 'ET AI Concierge' — A Financial Companion
 
 <div align="center">
-# 'ET AI Concierge' — A Financial Companion
     
 **An AI-powered financial advisory platform built on The Economic Times brand identity.**
 
